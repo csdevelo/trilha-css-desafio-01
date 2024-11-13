@@ -1,0 +1,325 @@
+@import url('reset.css');
+
+
+body {
+    background-color: black;
+}
+
+p {
+ color: white;
+}
+
+/* header - banner */
+
+.banner {
+    width: 1440px;
+    height: 605px;
+    gap: 0px;
+    opacity: 0px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+
+.banner .banner-content {
+    width: Hug 510px;
+    height: Hug 393px;
+    
+    margin-left: 365px;
+    gap: 16px;
+    opacity: 0px;
+}
+
+.logo {
+    margin-left: 18%;
+}    
+
+
+.banner .banner-content button {
+    width: Fixed 326px;
+    height: Hug 57px;
+    padding: 19px 91px;
+    gap: 31px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+
+    border: 2px solid;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 3px;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    letter-spacing: 0.21em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #31A8DD;
+
+    margin-top: 22px;
+    margin-left: 10%;
+
+}
+
+.banner h1 {
+    font-family: 'Raleway' sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    margin-left: 10%;
+}
+
+.banner .banner-content p {
+    width: 610px;
+    height: 46px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: 'Raleway' sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 23.48px;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-left: -3%;
+}
+
+
+/* main - section id="course-content" */ 
+
+#course-content {
+    width: Hug 792px;
+    height: Hug 525px;
+
+    gap: 24px;
+    opacity: 0px;
+
+    text-align: center;
+
+    padding-top: 50px;
+}
+
+#course-content h2 {
+    width: Hug 477px;
+    height: Hug 38px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #33A8DB;
+    text-transform: uppercase;
+}
+
+
+#course-content p {
+    width: 892px;
+    height: Hug 38px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #FFFFFF;
+
+    padding: 25px 25px;
+
+    margin-left: 18%;
+}
+
+#course-content .modules-list .module {
+  color: white;
+  width: 680px;
+  height: 51px;
+  margin: 0 auto 24px;
+  border: 1px solid #33A8DB;
+  background-color: #252525;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+
+  text-align: center;
+}
+
+
+#course-content .modules-list .module span {
+  color: #33A8DB;
+}
+
+
+/* main - section id="transform-world" */ 
+
+#transform-world {
+    width: 1440px;
+    height: 363px;
+    margin-top: 68px;
+    gap: 0px;
+    border: 1px 1px 1px 0px;
+    opacity: 0px;
+
+    height: 560px;
+    background-size: cover;
+    background-image: url("../images/woman-code.png");
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+}  
+
+#transform-world p {
+    width: 244px;
+    height: 141px;
+    margin-top: 25px;
+    margin-left: 30px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 46.96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+
+    color: #FFFFFF;
+
+    drop-shadow: 3px 2px #33A8DB;
+
+    text-transform: lowercase;
+}
+
+
+
+/* main - section id="professional-challenges" */ 
+
+#professional-challenges h2 {
+    width: 746px;
+    height: 76px;
+    margin-top: 50px;
+    margin-left: 290px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #33A8DB;
+
+    text-transform: uppercase;
+}    
+
+#professional-challenges p {
+    width: 792px;
+    height: 76px;
+    padding-top: 25px;
+    margin-bottom: 65px;
+    margin-left: 290px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #FFFFFF;
+}
+
+#professional-challenges img {
+    width: 659px;
+    height: 429px;
+    margin-top: 65px;
+    margin-left: 290px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+/* rodapé */
+
+footer {
+    width: 1440px;
+    height: 170px;
+    gap: 0px;
+    border-top: 1px solid #33A8DB;
+    opacity: 0px;
+}
+
+footer img {
+    width: 310px;
+    height: 44px;
+    margin-top: 59px;
+    margin-left: 465px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+footer p {
+    width: 259px;
+    height: 19px;
+    
+    margin-left: 495px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+footer p a {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration: none;
+    color: skyblue;
+
+}    
